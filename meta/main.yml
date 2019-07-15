@@ -30,6 +30,7 @@ galaxy_info:
   #  - raring
   #  - saucy
     - trusty
+    - bionic
   #- name: Debian
   #  versions:
   #  - all
