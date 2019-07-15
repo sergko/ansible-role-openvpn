@@ -1,3 +1,8 @@
+---
+
+- name: ping
+  command: ping 8.8.8.8
+
 - name: Install EPEL
   package:
     name: epel-release

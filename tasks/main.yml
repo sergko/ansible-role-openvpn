@@ -12,6 +12,9 @@
   include_tasks: set_facts.yml
   tags: [always]
 
+- name: debug openvpn_service_name
+  debug: msg=" openvpn_service_name= {{ openvpn_service_name }}"
+
 - name: Uninstall OpenVPN
   include_tasks: uninstall.yml
   when: openvpn_uninstall
